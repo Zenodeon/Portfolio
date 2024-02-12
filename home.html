@@ -10,10 +10,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
     <link rel="stylesheet" href="assets/css/swiper-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <link rel="stylesheet" href="assets/css/mainStyle.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 </head>
 
 <body>
@@ -31,23 +29,27 @@
         </div>
     </nav>
     <main class="page lanidng-page">
-        <section class="portfolio-block block-intro" style="color: var(--bs-white);">
+        <section class="portfolio-block block-intro" style="color: var(--bs-white);padding-bottom: 50px;">
             <div class="container" style="/*vertical-align: middle;*/">
                 <div style="border-radius: 28px;height: 200px;width: 200px;backdrop-filter: blur(0px);-webkit-backdrop-filter: blur(0px);filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(0%) sepia(0%);align-self: center;margin: auto;">
-                    <div style="border-radius: 28px;height: 200px;width: 200px;/*margin-right: 0px;*/margin-bottom: -200px;border-width: 54px;border-style: none;background: linear-gradient(120deg, rgba(0,0,0,0) 0%, rgba(204,0,255,0.06) 100%), linear-gradient(30deg, #030a10 0%, #0a1d2f 100%);box-shadow: 0px 0px 20px 0px #b2f0ff;filter: blur(30px);opacity: 1;"></div>
+                    <div style="border-radius: 28px;height: 200px;width: 200px;/*margin-right: 0px;*/margin-bottom: -200px;border-width: 54px;border-style: none;background: linear-gradient(120deg, rgba(0,0,0,0) 0%, rgba(204,0,255,0.06) 100%), linear-gradient(30deg, #030a10 0%, #0a1d2f 100%);box-shadow: 0px 0px 20px 0px #b2f0ff;filter: blur(30px) brightness(120%);opacity: 1;transform: scale(1.11);"></div>
                     <div class="avatar" style="background: url(&quot;assets/img/avatars/20220627_163049.png&quot;) center / cover no-repeat;border-radius: 28px;filter: blur(0px);backdrop-filter: opacity(1) blur(0px);-webkit-backdrop-filter: opacity(1) blur(0px);opacity: 1;width: 200px;height: 200px;"></div>
                 </div>
                 <div class="about-me" style="max-width: 900px;">
-                    <p style="color: var(--bs-white);text-align: center;padding-top: 50px;">I am a Software and a Game Developer with expertise in C#, Unity, and Unreal Engine. I excel at turning ideas into interactive experiences. <br><br>Specialized in bringing User Interfaces to life, ensuring that every click feels intuitive and every transition is seamless.<br><br>Whether it's building immersive games or designing user-friendly software, I'm committed to making technology engaging and easy to use.</p>
+                    <p class="description-heading" style="color: var(--bs-white);text-align: center;padding-top: 50px;">I am a Software and a Game Developer with expertise in C#, Unity, and Unreal Engine. I excel at turning ideas into interactive experiences. <br><br>Specialized in bringing User Interfaces to life, ensuring that every click feels intuitive and every transition is seamless.<br><br>Whether it's building immersive games or designing user-friendly software, I'm committed to making technology engaging and easy to use.</p>
                 </div>
             </div>
         </section>
         <section class="portfolio-block photography" style="--bs-body-bg: #14171a;">
-            <div class="container">
-                <div class="row g-0">
+            <section style="height: 40px;margin-bottom: 50px;">
+                <h2 class="text-uppercase d-lg-flex justify-content-lg-center" style="color: rgb(255,255,255);text-align: center;margin-bottom: 3px;/*z-index: 1;*/">Highlights</h2>
+                <section style="/*position: inherit;*//*top: 0;*//*bottom: 0;*//*left: 0;*//*right: 0;*//*z-index: -1;*/height: 10px;background: linear-gradient(90deg, var(--bs-border-color-translucent) 0%, #b2f0ff 50%, var(--bs-border-color-translucent) 100%);filter: blur(20px) brightness(90%);width: 75%;transform: translateY(-25px);margin-left: 12.5%;margin-right: 12.5%;opacity: 0.80;"></section>
+            </section>
+            <div class="container portfolio-block compact-grid" style="padding-top: 0px;padding-bottom: 0px;padding-right: 0px;padding-left: 0px;">
+                <div class="row g-0 justify-content-center">
+                    <div class="col-md-6 col-lg-4 d-lg-flex justify-content-lg-center align-items-lg-center item zoom-on-hover position-relative" style="background: rgba(0,0,0,0);"><a href="projectView/motionTable.html" data-bs-target="ProjectDetailView"><img class="img-fluid image" src="assets/img/thumbnail/MotionTable.gif" style="/*top: 0;*//*bottom: 0;*//*left: 0;*//*right: 0;*//*vertical-align: middle;*/"><span class="description"><span class="description-heading">Kinetic Motion Table</span><span class="description-body"></span></span></a></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"></a></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image2.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/image4.jpg"></a></div>
                 </div>
             </div>
         </section>
@@ -59,8 +61,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/functions.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
-    <script src="assets/js/Simple-Slider-swiper-bundle.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 
