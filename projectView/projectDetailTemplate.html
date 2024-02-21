@@ -30,17 +30,38 @@
     </nav>
     <main class="page project-page" style="background: var(--bs-body-bg);">
         <section class="portfolio-block project" style="color: var(--bs-white);/*width: 80%;*//*margin-left: 10%;*//*padding-right: -10%;*/">
-            <div class="container">
+            <div class="container" style="display: flex;justify-content: center;flex-direction: column;">
                 <div class="heading" style="margin-bottom: 50px;">
                     <h2>project name</h2>
                 </div>
                 <div class="carousel slide" data-bs-ride="false" data-bs-pause="false" data-bs-keyboard="false" id="carousel-1" style="padding-bottom: 50px;">
                     <div class="carousel-inner">
-                        <div class="carousel-item active videoiframecontainer"><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe></div>
-                        <div class="carousel-item videoiframecontainer"><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe></div>
-                        <div class="carousel-item videoiframecontainer"><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe></div>
-                        <div class="carousel-item videoiframecontainer"><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe></div>
+                        <div class="carousel-item active videoiframecontainer">
+                            <section style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;/*background: #ff0000;*/">
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop=""></lottie-player>
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop="" style="filter: blur(0px);"></lottie-player>
+                            </section><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe>
+                        </div>
+                        <div class="carousel-item videoiframecontainer">
+                            <section style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;/*background: #ff0000;*/">
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop=""></lottie-player>
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop="" style="filter: blur(0px);"></lottie-player>
+                            </section><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe>
+                        </div>
+                        <div class="carousel-item videoiframecontainer">
+                            <section style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;/*background: #ff0000;*/">
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop=""></lottie-player>
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop="" style="filter: blur(0px);"></lottie-player>
+                            </section><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe>
+                        </div>
+                        <div class="carousel-item videoiframecontainer">
+                            <section style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;/*background: #ff0000;*/">
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop=""></lottie-player>
+                                <lottie-player class="loadinglottie" src="../assets/js/Lottie/LoadingLottie.json" mode="normal" autoplay="" loop="" style="filter: blur(0px);"></lottie-player>
+                            </section><iframe class="videoiframe" src="https://drive.google.com/file/d/1ECvWR_PR2-w3Soi2f7X4v-UbTg-aCqdF/preview" allowfullscreen="true"></iframe>
+                        </div>
                     </div>
+                    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev" style="pointer-events: none;bottom: 50px;"><span class="carousel-control-prev-icon" style="pointer-events: all;"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next" style="pointer-events: none;bottom: 50px;"><span class="carousel-control-next-icon" style="pointer-events: all;"></span><span class="visually-hidden">Next</span></a></div>
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
@@ -60,6 +81,7 @@
         <section class="portfolio-block website ggradient" style="padding-bottom: 0px;padding-top: 0px;height: 0px;"></section>
     </footer>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/lottie-player.min.js"></script>
     <script src="../assets/js/functions.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="../assets/js/theme.js"></script>
