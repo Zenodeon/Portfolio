@@ -143,3 +143,8 @@ html {
   filter: saturate(100%);
 }
 
+.grid-column {
+  min-width: 300px;
+  min-height: 225px;
+}
+
