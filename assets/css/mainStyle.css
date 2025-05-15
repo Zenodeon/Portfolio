@@ -148,3 +148,32 @@ html {
   min-height: 225px;
 }
 
+.btn:hover {
+  color: #ffffff;
+  background-color: #63bef1;
+  border-color: #63bef1;
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: #ffffff;
+  background-color: #59abda;
+  border-color: #59abda;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #63bef1;
+  --bs-btn-border-color: #63bef1;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0ea0ff;
+  --bs-btn-hover-border-color: #0ea0ff;
+  --bs-btn-focus-shadow-rgb: 14, 160, 255;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0ea0ff;
+  --bs-btn-active-border-color: #0ea0ff;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #0ea0ff;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #0ea0ff;
+  --bs-gradient: none;
+}
+
